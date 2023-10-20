@@ -1,0 +1,11 @@
+.personal {
+  &__account {
+    display: flex;
+    justify-content: end;
+    column-gap: 14px;
+  }
+  &__image {
+    width: 30px;
+    height: 30px;
+  }
+}

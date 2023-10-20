@@ -1,0 +1,21 @@
+.seeall {
+  color: #fff;
+
+  /* Body/S/B1 */
+  font-family: PT Root UI VF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    width: 16px;
+    height: 16px;
+    background-image: url('../../assets/icons/BackIcon.svg'); // Rasmning URL manzili
+    background-size: cover;
+  }
+}

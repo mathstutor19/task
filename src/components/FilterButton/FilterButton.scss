@@ -1,0 +1,31 @@
+.filter {
+  &__button {
+    padding: 12px;
+    margin-left: 5px;
+    background-color: transparent;
+    border-radius: 22px;
+    backdrop-filter: blur(4.077422618865967px);
+    color: rgba(255, 255, 255, 0.5);
+    font-family: PT Root UI VF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    transition: all 0.4s ease-in-out;
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+  }
+  &__active {
+    color: #fff;
+    text-align: center;
+    font-family: PT Root UI VF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 128.571% */
+    background: rgba(255, 255, 255, 0.1);
+  }
+}

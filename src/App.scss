@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Random Grotesque Standard Bold';
+  src: url('./assets/fonts/RG-StandardBold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PT Root UI VF';
+  src: url('./assets/fonts/PT-Root-UI-VF.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(0, 0, 0, 1);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+}
+.app__wrapper {
+  display: flex;
+}

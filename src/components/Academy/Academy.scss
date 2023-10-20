@@ -1,0 +1,22 @@
+.academy__title {
+  position: relative;
+  font-family: 'PT Root UI VF';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 100% */
+  color: white;
+  background-color: transparent;
+  left: 18px;
+  top: -1px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -37px;
+    width: 24px; // Rasm o'lchamini o'zgartiring
+    height: 24px; // Rasm o'lchamini o'zgartiring
+    background-image: url('../../assets/icons/academicLeft.svg'); // Rasmning URL manzili
+    background-size: cover;
+  }
+}

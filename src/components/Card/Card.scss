@@ -1,0 +1,82 @@
+.card {
+  width: 231px;
+  height: 342px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  &__top {
+    width: 231px;
+    height: 137px;
+    position: absolute;
+    z-index: 5;
+    opacity: 0.4;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #000 100%);
+  }
+  &__image {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  &-title {
+    font-family: PT Root UI VF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 100px;
+    position: absolute;
+    z-index: 10;
+    bottom: 16px;
+    left: 16px;
+    color: white;
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    left: 16px;
+    top: 16px;
+    &-left {
+      width: 75px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(239, 123, 60, 1);
+      border-radius: 20px;
+      &-title {
+        font-family: 'Random Grotesque Standard Bold';
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 12px;
+        color: white;
+      }
+    }
+    &-right {
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(50px);
+      margin-left: 94px;
+    }
+  }
+  &__bottom {
+    width: 231px;
+    height: 127px;
+    position: absolute;
+    z-index: 5;
+    bottom: -1px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%);
+  }
+}

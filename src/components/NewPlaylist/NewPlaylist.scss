@@ -1,0 +1,44 @@
+.playlist {
+  width: calc((100vw - 290px));
+  height: 440px;
+  background: #7c2b1e;
+  position: relative;
+  &__container {
+    padding-left: calc((100vw - 290px - 960px) * 0.55);
+  }
+  &__filter {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: calc((100vw - 290px - 960px) * 0.55);
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 37px;
+    margin-bottom: 20px;
+    padding-right: calc((100vw - 290px - 960px) * 0.55);
+  }
+  &__newtitle {
+    font-family: 'Random Grotesque Standard Bold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 100% */
+    color: white;
+  }
+  &__card-wrapper {
+    display: flex;
+    column-gap: 12px;
+  }
+  &__bottom {
+    width: calc((100vw - 290px));
+    height: 204px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 0;
+  }
+}
