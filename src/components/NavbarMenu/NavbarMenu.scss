@@ -23,6 +23,10 @@
     color: white;
     display: flex;
     align-items: center;
+    transition: all 0.5 ease-in-out;
+    &:hover {
+      background-color: rgb(39, 38, 38);
+    }
   }
   &__link {
     display: flex;

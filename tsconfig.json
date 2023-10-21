@@ -8,11 +8,14 @@
 
     /* Bundler mode */
     "moduleResolution": "node",
-    // "allowImportingTsExtensions": true,
+    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "allowJs": true,
 
     /* Linting */
     "strict": true,

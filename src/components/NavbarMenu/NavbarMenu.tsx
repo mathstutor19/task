@@ -8,7 +8,7 @@ import navbarLeftIcon from '../../assets/icons/navbarLeftIcon.svg'
 import navbarHelp from '../../assets/icons/navbarHelp.svg'
 import './NavbarMenu.scss'
 
-const NavbarMenu = () => {
+const NavbarMenu: React.FC = () => {
     return (
         <div className="navbar__menu">
             <h2 className='navbar__title'>Main</h2>
