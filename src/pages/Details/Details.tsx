@@ -1,6 +1,6 @@
 import Academy from '../../components/Academy/Academy'
 import './Details.scss'
-const Details = () => {
+const Details: React.FC = () => {
     return (
         <div className='detail'>
             <div className="detail__top">

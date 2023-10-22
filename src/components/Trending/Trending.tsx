@@ -1,7 +1,7 @@
 import TrendingData from '../../data/TrendingData'
 import Card from '../Card/Card'
 import './Trending.scss'
-const Trending = () => {
+const Trending: React.FC = () => {
     return (
         <div className="trending">
             <h2 className='trending__title'>Trending</h2>

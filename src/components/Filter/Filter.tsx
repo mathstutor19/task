@@ -1,6 +1,6 @@
 import FilterButton from '../FilterButton/FilterButton'
 
-const Filter = () => {
+const Filter: React.FC = () => {
     const filterButtons: string[] = ['All', 'Stocks', 'ETFs', 'Crypto', 'NFTs']
     return (
         <div>

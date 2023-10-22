@@ -1,5 +1,6 @@
-import './Academy.scss'
-const Academy = () => {
+import './Academy.scss';
+
+const Academy: React.FC = () => {
     return (
         <h1 className="academy__title">
             Academy
@@ -7,4 +8,4 @@ const Academy = () => {
     )
 }
 
-export default Academy
+export default Academy;

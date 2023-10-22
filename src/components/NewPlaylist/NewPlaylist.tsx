@@ -4,7 +4,7 @@ import Filter from '../Filter/Filter'
 import Academy from '../Academy/Academy'
 import './NewPlaylist.scss'
 import SeeAll from '../SeeAll/SeeAll'
-const NewPlaylist = () => {
+const NewPlaylist: React.FC = () => {
     return (
         <div className='playlist'>
             <div className="playlist__container">

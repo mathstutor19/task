@@ -1,5 +1,5 @@
 import './Loading.scss'
-const Loading = () => {
+const Loading: React.FC = () => {
     return (
         <div className="loader__wrapper">
             <div className="loader"></div>

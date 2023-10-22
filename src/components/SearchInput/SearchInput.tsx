@@ -1,7 +1,7 @@
 import searchicon from '../../assets/icons/searchicon.svg';
 import './SearchInput.scss'
 
-const SearchInput = () => {
+const SearchInput: React.FC = () => {
     return (
         <div className='search__container'>
             <input className='search__input' type="text" placeholder="Search" />

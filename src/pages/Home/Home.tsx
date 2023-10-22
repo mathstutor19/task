@@ -1,7 +1,7 @@
 import NewPlaylist from "../../components/NewPlaylist/NewPlaylist"
 import Trending from "../../components/Trending/Trending"
 import './Home.scss'
-const Home = () => {
+const Home: React.FC = () => {
     return (
         <main className="home">
             <NewPlaylist />
